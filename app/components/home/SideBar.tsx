@@ -29,15 +29,13 @@ export default function SideBar() {
             Software Engineering Student at Cal Poly SLO
           </p>
           <p className="mt-6 text-base font-normal leading-8 text-slate-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            non ante nisi. Phasellus quis pharetra elit, eu placerat enim.
-            Phasellus a odio fringilla, elementum dui vel, blandit eros. Nulla
-            ultricies vitae mauris rhoncus mollis. Ut gravida rhoncus auctor.
-            Suspendisse scelerisque sed lacus a elementum. Mauris nec mi
-            aliquam, sodales enim vel, lobortis leo. Morbi non mattis ante.
-            Mauris quis nulla a lorem interdum pellentesque quis et dui. Donec
-            malesuada, justo a porttitor sollicitudin, justo mi imperdiet nibh,
-            sit amet semper est leo nec risus.
+            As a passionate developer working on full-stack applications, I
+            prioritize security and efficiency when creating new software. I
+            excel at developing real-time collaborative experiences by using
+            tools such as OT and CRDT. While producing a wide range of
+            applications for my freelance clients has improved my personal skill
+            set, I am also passionate about sharing my programming knowledge as
+            a teaching assistant at my local high school.
           </p>
         </div>
       </div>
