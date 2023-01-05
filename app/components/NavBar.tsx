@@ -1,14 +1,15 @@
-import { IoLogoGithub } from 'react-icons/io5';
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 import LogoFull from './LogoFull';
 
 export default function NavBar() {
   return (
     <header className="sticky top-0 z-50 flex items-center justify-between bg-white px-4 py-5 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8 dark:bg-slate-900/95 dark:backdrop-blur dark:[@supports(backdrop-filter:blur(0))]:bg-slate-900/75">
-      <div className="relative flex flex-grow basis-0 items-center">
+      <div className="flex flex-grow">
         <LogoFull />
       </div>
-      <div>
+      <div className="flex flex-row space-x-6">
         <IoLogoGithub className="w-7 h-7 transition-colors text-primary-400 hover:text-primary-300 cursor-pointer" />
+        <IoLogoLinkedin className="w-7 h-7 transition-colors text-primary-400 hover:text-primary-300 cursor-pointer" />
       </div>
     </header>
   );
