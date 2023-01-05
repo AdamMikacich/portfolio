@@ -2,7 +2,7 @@ import { IoLogoGithub, IoOpenOutline } from 'react-icons/io5';
 
 export default function ProjectsList() {
   return (
-    <main className="border-t border-slate-200 lg:ml-[28rem]">
+    <main className="border-t border-slate-200 bg-white lg:ml-[28rem]">
       <div className="relative">
         <div className="pt-16 pb-12 sm:pb-4 lg:pt-12">
           <div className="lg:px-8">
