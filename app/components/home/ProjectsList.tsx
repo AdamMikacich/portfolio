@@ -29,7 +29,7 @@ export default function ProjectsList() {
                       <time className="order-first font-mono text-sm leading-7 text-slate-500">
                         January 2022
                       </time>
-                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-outside -ml-2">
+                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-inside md:list-outside -ml-2">
                         <li className="pl-2">
                           Simplifies team scheduling by allowing users to
                           register for events, sign up for food, and sign into
@@ -75,7 +75,7 @@ export default function ProjectsList() {
                       <time className="order-first font-mono text-sm leading-7 text-slate-500">
                         July 2020
                       </time>
-                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-outside -ml-2">
+                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-inside md:list-outside -ml-2">
                         <li className="pl-2">
                           Created an open source tool for organizations to store
                           an archive of their messages on the Slack platform
@@ -124,7 +124,7 @@ export default function ProjectsList() {
                       <time className="order-first font-mono text-sm leading-7 text-slate-500">
                         June 2021
                       </time>
-                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-outside -ml-2">
+                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-inside md:list-outside -ml-2">
                         <li className="pl-2">
                           Built a new alternative to the traditional scantron
                           system used to record scouting data at robotic
@@ -175,7 +175,7 @@ export default function ProjectsList() {
                       <time className="order-first font-mono text-sm leading-7 text-slate-500">
                         April 2022
                       </time>
-                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-outside -ml-2">
+                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-inside md:list-outside -ml-2">
                         <li className="pl-2">
                           Developed an interactive display application for a
                           portrait touch-enabled monitor
