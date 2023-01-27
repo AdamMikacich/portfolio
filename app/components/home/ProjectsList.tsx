@@ -96,7 +96,14 @@ export default function ProjectsList() {
                           <div className="mt-4 flex items-center gap-4">
                             <button className="flex items-center text-sm font-bold leading-6 text-sky-500 hover:text-sky-700 active:text-sky-900">
                               <IoOpenOutline className="w-6 h-6" />
-                              <span className="ml-2">Learn More</span>
+                              <a
+                                className="ml-2"
+                                href="https://github.com/adammikacich/"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                Learn More
+                              </a>
                             </button>
                             <span
                               aria-hidden="true"
@@ -106,7 +113,14 @@ export default function ProjectsList() {
                             </span>
                             <button className="flex items-center text-sm font-bold leading-6 text-sky-500 hover:text-sky-700 active:text-sky-900">
                               <IoLogoGithub className="w-6 h-6" />
-                              <span className="ml-2">GitHub</span>
+                              <a
+                                className="ml-2"
+                                href="https://github.com/adammikacich/"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                GitHub
+                              </a>
                             </button>
                           </div>
                         </div>
