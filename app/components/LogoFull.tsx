@@ -18,7 +18,7 @@ export default function NavSection(props: { className?: string }) {
         priority={true}
         className="w-8 h-8 mr-3 lg:mr-4"
       ></Image>
-      <p className="self-center text-xl font-semibold whitespace-nowrap text-slate-700 dark:text-slate-300">
+      <p className="self-center text-xl font-semibold whitespace-nowrap text-primary-700 dark:text-primary-300">
         Adam Mikacich
       </p>
     </Link>

@@ -2,19 +2,19 @@ import { IoLogoGithub, IoOpenOutline } from 'react-icons/io5';
 
 export default function ProjectsList() {
   return (
-    <main className="border-t border-slate-200 bg-white overflow-y-auto w-full h-full">
+    <main className="border-t border-primary-200 lg:border-none bg-white dark:bg-primary-900 overflow-y-auto w-full h-full">
       <div className="relative">
         <div className="pt-16 pb-12 sm:pb-4 lg:pt-12">
           <div className="lg:px-8">
             <div className="lg:max-w-4xl">
               <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
-                <h1 className="text-2xl font-bold leading-7 text-slate-900">
+                <h1 className="text-2xl font-bold leading-7 text-primary-900 dark:text-primary-100">
                   Projects
                 </h1>
               </div>
             </div>
           </div>
-          <div className="divide-y divide-slate-100 sm:mt-4 lg:mt-8 lg:border-t lg:border-slate-100">
+          <div className="divide-y divide-primary-100 dark:divide-primary-800 sm:mt-4 lg:mt-8 lg:border-t lg:border-primary-100 dark:lg:border-primary-800">
             <article aria-labelledby="project-1" className="py-10 sm:py-12">
               <div className="lg:px-12">
                 <div className="lg:max-w-4xl">
@@ -22,14 +22,14 @@ export default function ProjectsList() {
                     <div className="flex flex-col items-start">
                       <h2
                         id="project-1"
-                        className="mt-2 text-lg font-bold text-slate-900"
+                        className="mt-2 text-lg font-bold text-primary-900 dark:text-primary-100"
                       >
                         Events, Robotics Management Application
                       </h2>
-                      <time className="order-first font-mono text-sm leading-7 text-slate-500">
+                      <time className="order-first font-mono text-sm leading-7 text-primary-500 dark:text-primary-400">
                         January 2022
                       </time>
-                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-inside md:list-outside -ml-2">
+                      <ul className="mt-1 text-base leading-7 text-primary-700 dark:text-primary-400 list-disc list-inside md:list-outside -ml-2">
                         <li className="pl-2">
                           Simplifies team scheduling by allowing users to
                           register for events, sign up for food, and sign into
@@ -47,7 +47,7 @@ export default function ProjectsList() {
                         </button>
                         <span
                           aria-hidden="true"
-                          className="text-sm font-bold text-slate-400"
+                          className="text-sm font-bold text-primary-400 dark:text-primary-600"
                         >
                           /
                         </span>
@@ -68,14 +68,14 @@ export default function ProjectsList() {
                     <div className="flex flex-col items-start">
                       <h2
                         id="project-2"
-                        className="mt-2 text-lg font-bold text-slate-900"
+                        className="mt-2 text-lg font-bold text-primary-900"
                       >
                         ConvoVault, Slack Message Archiving Application
                       </h2>
-                      <time className="order-first font-mono text-sm leading-7 text-slate-500">
+                      <time className="order-first font-mono text-sm leading-7 text-primary-500">
                         July 2020
                       </time>
-                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-inside md:list-outside -ml-2">
+                      <ul className="mt-1 text-base leading-7 text-primary-700 list-disc list-inside md:list-outside -ml-2">
                         <li className="pl-2">
                           Created an open source tool for organizations to store
                           an archive of their messages on the Slack platform
@@ -96,7 +96,7 @@ export default function ProjectsList() {
                         </button>
                         <span
                           aria-hidden="true"
-                          className="text-sm font-bold text-slate-400"
+                          className="text-sm font-bold text-primary-400"
                         >
                           /
                         </span>
@@ -117,14 +117,14 @@ export default function ProjectsList() {
                     <div className="flex flex-col items-start">
                       <h2
                         id="project-3"
-                        className="mt-2 text-lg font-bold text-slate-900"
+                        className="mt-2 text-lg font-bold text-primary-900"
                       >
                         Scouting Native, Robotics Mobile Application
                       </h2>
-                      <time className="order-first font-mono text-sm leading-7 text-slate-500">
+                      <time className="order-first font-mono text-sm leading-7 text-primary-500">
                         June 2021
                       </time>
-                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-inside md:list-outside -ml-2">
+                      <ul className="mt-1 text-base leading-7 text-primary-700 list-disc list-inside md:list-outside -ml-2">
                         <li className="pl-2">
                           Built a new alternative to the traditional scantron
                           system used to record scouting data at robotic
@@ -147,7 +147,7 @@ export default function ProjectsList() {
                         </button>
                         <span
                           aria-hidden="true"
-                          className="text-sm font-bold text-slate-400"
+                          className="text-sm font-bold text-primary-400"
                         >
                           /
                         </span>
@@ -168,14 +168,14 @@ export default function ProjectsList() {
                     <div className="flex flex-col items-start">
                       <h2
                         id="project-4"
-                        className="mt-2 text-lg font-bold text-slate-900"
+                        className="mt-2 text-lg font-bold text-primary-900"
                       >
                         Pit Display, Interactive Multi-Touch Web Application
                       </h2>
-                      <time className="order-first font-mono text-sm leading-7 text-slate-500">
+                      <time className="order-first font-mono text-sm leading-7 text-primary-500">
                         April 2022
                       </time>
-                      <ul className="mt-1 text-base leading-7 text-slate-700 list-disc list-inside md:list-outside -ml-2">
+                      <ul className="mt-1 text-base leading-7 text-primary-700 list-disc list-inside md:list-outside -ml-2">
                         <li className="pl-2">
                           Developed an interactive display application for a
                           portrait touch-enabled monitor
@@ -195,7 +195,7 @@ export default function ProjectsList() {
                         </button>
                         <span
                           aria-hidden="true"
-                          className="text-sm font-bold text-slate-400"
+                          className="text-sm font-bold text-primary-400"
                         >
                           /
                         </span>

@@ -13,7 +13,7 @@ export default function RootLayout({
       <head />
       <body
         className={
-          'bg-white dark:bg-primary-900 text-slate-900 dark:text-white' +
+          'bg-white dark:bg-primary-900 text-primary-900 dark:text-white' +
           inter.className
         }
       >
