@@ -10,7 +10,16 @@ type Project = {
 export default function ProjectsList() {
   const projects: Project[] = [
     {
-      id: 'project-1',
+      id: 'project-5',
+      title: 'Portfolio, Web Application',
+      date: 'January 2023',
+      points: [
+        'Mobile friendly portfolio website displaying projects and basic contact information',
+        'Built using NextJS (React) with server-side-rendering to improve SEO performance'
+      ]
+    },
+    {
+      id: 'project-4',
       title: 'Events, Robotics Management Application',
       date: 'January 2022',
       points: [
@@ -19,7 +28,7 @@ export default function ProjectsList() {
       ]
     },
     {
-      id: 'project-2',
+      id: 'project-3',
       title: 'ConvoVault, Slack Message Archiving Application',
       date: 'July 2020',
       points: [
@@ -29,7 +38,7 @@ export default function ProjectsList() {
       ]
     },
     {
-      id: 'project-3',
+      id: 'project-2',
       title: 'Scouting Native, Robotics Mobile Application',
       date: 'June 2021',
       points: [
@@ -39,7 +48,7 @@ export default function ProjectsList() {
       ]
     },
     {
-      id: 'project-4',
+      id: 'project-1',
       title: 'Pit Display, Interactive Multi-Touch Web Application',
       date: 'April 2022',
       points: [
