@@ -8,7 +8,7 @@ export default function NavBar() {
       <div className="flex flex-grow">
         <LogoFull />
       </div>
-      <div className="flex flex-row space-x-4 lg:space-x-6">
+      <div className="flex flex-row space-x-4 lg:space-x-6 bg-white dark:bg-slate-900 p-2 rounded-full">
         <Link href="https://github.com/adammikacich/">
           <IoLogoGithub className="w-7 h-7 transition-colors text-primary-400 hover:text-primary-300 cursor-pointer" />
         </Link>
