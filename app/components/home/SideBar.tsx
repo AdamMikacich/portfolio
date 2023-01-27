@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 export default function SideBar() {
   return (
-    <header className="bg-slate-50 lg:mt-16 lg:fixed lg:inset-y-0 lg:left-0 lg:flex lg:items-start lg:overflow-y-auto xl:w-120">
+    <header className="bg-slate-50 lg:flex lg:items-start lg:overflow-y-auto xl:w-120">
       <div className="hidden lg:flex sticky top-0 w-16 flex-none items-center whitespace-nowrap py-12 text-sm leading-7 [writing-mode:vertical-rl]">
         <span className="font-mono text-slate-500">Developed by&nbsp;</span>
         <span className="flex gap-6 font-bold text-slate-900">
           Adam Mikacich
         </span>
       </div>
-      <div className="mx-auto px-4 pb-4 pt-10 sm:px-6 max-w-xl lg:max-w-sm md:px-4 lg:min-h-full lg:flex-auto lg:border-x lg:border-slate-200 lg:py-12 lg:px-8 xl:px-12">
+      <div className="mx-auto px-4 pb-4 pt-10 sm:px-6 max-w-xl lg:max-w-sm md:px-4 lg:min-h-full lg:flex-auto lg:border-x lg:border-slate-200 lg:py-12 lg:px-8 xl:px-12 overflow-y-auto">
         <a
           className="relative mx-auto block w-48 overflow-hidden rounded-lg bg-slate-200 shadow-xl shadow-slate-200 sm:w-64 sm:rounded-xl lg:w-auto lg:rounded-2xl"
           aria-label="Homepage"
